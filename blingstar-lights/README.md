@@ -1,16 +1,24 @@
-# blingstar-lights README
+# blingstar-lights
 
-## Working with Markdown
+A VSCode theme with colorful in dark background.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- Variable is scale-gray
+- Keywork is Peach Red
+- Function is light-blue
+- Operator is yellow
+- Class is orange
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Install
 
-## For more information
+### Use vsce to build your theme
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+```bash
+npm i -g vsce   #install vsce
+vsce package    # build 
+```
 
-**Enjoy!**
+### vsce will gen a .vsix file. To install your theme, run:
+
+```bash
+code --install-extension .\blingstar-lights-0.0.1.vsix
+```
